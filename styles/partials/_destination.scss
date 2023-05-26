@@ -1,0 +1,66 @@
+@use "./variables" as *;
+@use "./mixins" as *;
+
+.destination {
+  background: $destination-section-color;
+  height: 33.5rem;
+  font-family: $site-font;
+
+  &__title {
+    margin-left: 3rem;
+  }
+
+  &__title--text {
+    color: $hme-page-recommendation-tile-color;
+    padding: 1rem;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    width: 22rem;
+    height: 27.5rem;
+    border-radius: 0.625rem;
+    box-shadow: 0 5px 9px -1px rgba(0, 0, 0, 0.25);
+    justify-content: space-around;
+    align-items: flex-end;
+    margin: 0 2.5rem;
+
+    &__content {
+      color: white;
+      font-size: 2rem;
+      padding-top: 23rem;
+      padding-right: 1rem;
+    }
+  }
+
+  .card__wrap--outer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card__wrap--inner {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .card__wrap--hawaii {
+    background: url("../Assets/Images/hawaii.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .card__wrap--iceland {
+    background: url("../Assets/Images/iceland.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .card__wrap--greece {
+    background: url("../Assets/Images/greece.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+}

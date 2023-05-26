@@ -74,4 +74,59 @@ body {
 }
 .hero__image-container--image {
   width: 500px;
+}
+
+.destination {
+  background: #ffffff;
+  height: 33.5rem;
+  font-family: "Verdana";
+}
+.destination__title {
+  margin-left: 3rem;
+}
+.destination__title--text {
+  color: #335576;
+  padding: 1rem;
+}
+.destination .card {
+  display: flex;
+  flex-direction: column;
+  width: 22rem;
+  height: 27.5rem;
+  border-radius: 0.625rem;
+  box-shadow: 0 5px 9px -1px rgba(0, 0, 0, 0.25);
+  justify-content: space-around;
+  align-items: flex-end;
+  margin: 0 2.5rem;
+}
+.destination .card__content {
+  color: white;
+  font-size: 2rem;
+  padding-top: 23rem;
+  padding-right: 1rem;
+}
+.destination .card__wrap--outer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.destination .card__wrap--inner {
+  display: flex;
+  flex-direction: row;
+}
+.destination .card__wrap--hawaii {
+  background: url("../Assets/Images/hawaii.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.destination .card__wrap--iceland {
+  background: url("../Assets/Images/iceland.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.destination .card__wrap--greece {
+  background: url("../Assets/Images/greece.jpg");
+  background-size: cover;
+  background-position: center;
 }/*# sourceMappingURL=main.css.map */
