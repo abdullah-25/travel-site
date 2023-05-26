@@ -1,0 +1,66 @@
+@use "./variables" as *;
+@use "./mixins" as *;
+
+.footer {
+  color: $footer-color;
+  font-family: $site-font;
+  height: 10rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 8rem 1rem 8rem;
+
+  .contact {
+    &__title {
+      color: $footer-title-text-color;
+      font-size: 1.5rem;
+    }
+    &__email {
+      color: $footer-subtitle-text-color;
+    }
+    &__info {
+      color: $footer-title-text-color;
+    }
+  }
+
+  .hours {
+    &__title {
+      color: $footer-title-text-color;
+      font-size: 1.5rem;
+    }
+    &__container {
+      display: flex;
+      justify-content: space-between;
+    }
+    &__weekday {
+      padding-right: 1rem;
+    }
+    &__description {
+      color: $footer-subtitle-text-color;
+      margin-bottom: 1rem;
+    }
+    &__time {
+      color: $footer-title-text-color;
+    }
+  }
+  .social {
+    color: $footer-title-text-color;
+
+    &__title {
+      color: $footer-title-text-color;
+      font-size: 1.5rem;
+    }
+    &__instagram {
+      width: 3.125rem;
+      padding: 1rem;
+    }
+    &__facebook {
+      width: 3.125rem;
+      height: 3.125rem;
+      padding: 1rem;
+    }
+    &__twitter {
+      width: 3.125rem;
+      padding: 1rem;
+    }
+  }
+}
