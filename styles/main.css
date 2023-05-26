@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  background: #ffffff;
+  padding-top: 1em;
+  margin-bottom: 1em;
+}
+.header__title {
+  font-family: "Verdana";
+  text-transform: capitalize;
+  color: #335576;
+  padding: 0;
+  margin: 0;
+  padding-left: 2rem;
+  flex-grow: 1;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  padding: 1rem;
+}
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.nav__link {
+  text-decoration: none;
+  padding: 16px;
+  font-family: "Verdana";
+  text-transform: capitalize;
+  color: #335576;
+}
+.nav__link--active, .nav__link:hover {
+  -webkit-text-decoration: underline #db7a4e;
+          text-decoration: underline #db7a4e;
+}/*# sourceMappingURL=main.css.map */
