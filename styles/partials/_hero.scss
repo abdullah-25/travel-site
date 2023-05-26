@@ -1,0 +1,41 @@
+@use "./variables" as *;
+@use "./mixins" as *;
+
+.hero {
+  background: $hero-background-color;
+  display: flex;
+  font-family: $site-font;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  height: 30.5rem;
+  &__description {
+    width: 30%;
+    flex-grow: 1;
+    margin-left: 3rem;
+  }
+
+  &__description--title {
+    color: $hero-slogan-color;
+    font-size: 2.5rem;
+  }
+
+  &__description--tagline {
+    color: $hero-slogan-color;
+  }
+  &__description--btn {
+    margin-top: 1rem;
+    background: $get-started-btn-color;
+    color: white;
+    border-radius: 0.625rem;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    border: none;
+    cursor: pointer;
+  }
+
+  &__image-container {
+  }
+  &__image-container--image {
+    width: 500px;
+  }
+}
