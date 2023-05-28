@@ -119,18 +119,95 @@ body {
   color: #335576;
   font-size: 1.5rem;
 }
-.footer .social__instagram {
-  width: 3.125rem;
+.footer .social__icons {
+  width: 1rem;
+  display: flex;
+  justify-content: space-between;
   padding: 1rem;
 }
-.footer .social__facebook {
+.footer .social__icons--instagram {
+  width: 1rem;
+  padding: 1rem;
+}
+.footer .social__icons--facebook {
   width: 3.125rem;
   height: 3.125rem;
   padding: 1rem;
 }
-.footer .social__twitter {
+.footer .social__icons--twitter {
   width: 3.125rem;
   padding: 1rem;
+}
+
+.hawaii {
+  background: url("../../Assets/Images/hawaii.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  font-family: "Verdana";
+  padding-bottom: 5rem;
+}
+.hawaii .title {
+  margin-left: 3rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: 5rem;
+  font-weight: bold;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.hawaii__title--text {
+  color: #335576;
+  padding: 1rem;
+}
+.hawaii .card {
+  display: flex;
+  flex-direction: column;
+  width: 22rem;
+  height: 27.5rem;
+  border-radius: 0.625rem;
+  box-shadow: 0 5px 9px -1px rgba(0, 0, 0, 0.25);
+  justify-content: center;
+  align-items: center;
+  margin: 0 2.5rem;
+}
+.hawaii .card__content {
+  color: black;
+  font-size: 2rem;
+  border-bottom: 5px solid black;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+.hawaii .card__content__container {
+  background-color: #fefaf5;
+  width: 80%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.hawaii .card__content__container--text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hawaii .card__wrap--outer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.hawaii .card__wrap--inner {
+  display: flex;
+  flex-direction: row;
+}
+.hawaii .card__wrap--friday {
+  background-color: white;
+}
+.hawaii .card__wrap--saturday {
+  background-color: white;
+}
+.hawaii .card__wrap--sunday {
+  background-color: white;
 }
 
 .destination {

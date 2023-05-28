@@ -49,18 +49,24 @@
       color: $footer-title-text-color;
       font-size: 1.5rem;
     }
-    &__instagram {
-      width: 3.125rem;
+    &__icons {
+      width: 1rem;
+      display: flex;
+      justify-content: space-between;
       padding: 1rem;
-    }
-    &__facebook {
-      width: 3.125rem;
-      height: 3.125rem;
-      padding: 1rem;
-    }
-    &__twitter {
-      width: 3.125rem;
-      padding: 1rem;
+      &--instagram {
+        width: 1rem;
+        padding: 1rem;
+      }
+      &--facebook {
+        width: 3.125rem;
+        height: 3.125rem;
+        padding: 1rem;
+      }
+      &--twitter {
+        width: 3.125rem;
+        padding: 1rem;
+      }
     }
   }
 }
