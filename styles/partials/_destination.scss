@@ -26,12 +26,14 @@
     justify-content: space-around;
     align-items: flex-end;
     margin: 0 2.5rem;
+    text-decoration: none;
 
     &__content {
       color: white;
       font-size: 2rem;
       padding-top: 23rem;
       padding-right: 1rem;
+      font-style: bold;
     }
   }
 

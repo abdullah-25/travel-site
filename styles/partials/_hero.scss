@@ -8,11 +8,11 @@
   padding: 1rem;
   justify-content: center;
   align-items: center;
-  height: 30.5rem;
+
   &__description {
-    width: 30%;
     flex-grow: 1;
     margin-left: 3rem;
+    margin-right: 10rem;
   }
 
   &__description--title {
@@ -22,18 +22,20 @@
 
   &__description--tagline {
     color: $hero-slogan-color;
+    margin-right: 2rem;
   }
   &__description--btn {
     margin-top: 1rem;
     background: $get-started-btn-color;
     color: white;
-    border-radius: 0.625rem;
-    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    border-radius: 1rem;
+    padding: 0.5rem 2rem 0.5rem 2rem;
     border: none;
     cursor: pointer;
   }
 
   &__image-container {
+    padding-right: 1.5rem;
   }
   &__image-container--image {
     width: 500px;

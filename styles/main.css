@@ -3,6 +3,7 @@
   background: #ffffff;
   padding-top: 1em;
   margin-bottom: 1em;
+  padding-left: 2rem;
 }
 .header__title {
   font-family: "Verdana";
@@ -49,12 +50,11 @@ body {
   padding: 1rem;
   justify-content: center;
   align-items: center;
-  height: 30.5rem;
 }
 .hero__description {
-  width: 30%;
   flex-grow: 1;
   margin-left: 3rem;
+  margin-right: 10rem;
 }
 .hero__description--title {
   color: #335576;
@@ -62,15 +62,19 @@ body {
 }
 .hero__description--tagline {
   color: #335576;
+  margin-right: 2rem;
 }
 .hero__description--btn {
   margin-top: 1rem;
   background: #db7a4e;
   color: white;
-  border-radius: 0.625rem;
-  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  border-radius: 1rem;
+  padding: 0.5rem 2rem 0.5rem 2rem;
   border: none;
   cursor: pointer;
+}
+.hero__image-container {
+  padding-right: 1.5rem;
 }
 .hero__image-container--image {
   width: 500px;
@@ -79,16 +83,15 @@ body {
 .footer {
   background-color: #fefaf5;
   font-family: "Verdana";
-  padding: 4rem;
+  padding: 2rem 6.5rem 2rem 6.5rem;
   display: flex;
-  justify-content: space-evenly;
 }
 .footer__title {
   color: #335576;
   font-size: 1.5rem;
 }
 .footer__contact {
-  padding-right: 5rem;
+  padding-right: 11rem;
 }
 .footer__contact__title-container--title {
   color: #335576;
@@ -106,6 +109,7 @@ body {
 }
 .footer__hours__time-outer-container {
   display: flex;
+  padding-right: 10rem;
 }
 .footer__hours__time-inner-container {
   padding-right: 2.5rem;
@@ -138,7 +142,7 @@ body {
   padding-bottom: 5rem;
 }
 .hawaii .title {
-  margin-left: 3rem;
+  margin-left: 4rem;
   color: white;
   display: flex;
   flex-direction: column;
@@ -209,7 +213,7 @@ body {
   padding-bottom: 5rem;
 }
 .iceland .title {
-  margin-left: 3rem;
+  margin-left: 4rem;
   color: white;
   display: flex;
   flex-direction: column;
@@ -280,7 +284,7 @@ body {
   padding-bottom: 5rem;
 }
 .greece .title {
-  margin-left: 3rem;
+  margin-left: 4rem;
   color: white;
   display: flex;
   flex-direction: column;
@@ -365,12 +369,14 @@ body {
   justify-content: space-around;
   align-items: flex-end;
   margin: 0 2.5rem;
+  text-decoration: none;
 }
 .destination .card__content {
   color: white;
   font-size: 2rem;
   padding-top: 23rem;
   padding-right: 1rem;
+  font-style: bold;
 }
 .destination .card__wrap--outer {
   display: flex;
