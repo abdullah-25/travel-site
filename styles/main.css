@@ -210,6 +210,148 @@ body {
   background-color: white;
 }
 
+.iceland {
+  background: url("../../Assets/Images/iceland.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  font-family: "Verdana";
+  padding-bottom: 5rem;
+}
+.iceland .title {
+  margin-left: 3rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: 5rem;
+  font-weight: bold;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.iceland__title--text {
+  color: #335576;
+  padding: 1rem;
+}
+.iceland .card {
+  display: flex;
+  flex-direction: column;
+  width: 22rem;
+  height: 27.5rem;
+  border-radius: 0.625rem;
+  box-shadow: 0 5px 9px -1px rgba(0, 0, 0, 0.25);
+  justify-content: center;
+  align-items: center;
+  margin: 0 2.5rem;
+}
+.iceland .card__content {
+  color: black;
+  font-size: 2rem;
+  border-bottom: 5px solid black;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+.iceland .card__content__container {
+  background-color: #fefaf5;
+  width: 80%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.iceland .card__content__container--text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.iceland .card__wrap--outer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.iceland .card__wrap--inner {
+  display: flex;
+  flex-direction: row;
+}
+.iceland .card__wrap--friday {
+  background-color: white;
+}
+.iceland .card__wrap--saturday {
+  background-color: white;
+}
+.iceland .card__wrap--sunday {
+  background-color: white;
+}
+
+.greece {
+  background: url("../../Assets/Images/greece.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  font-family: "Verdana";
+  padding-bottom: 5rem;
+}
+.greece .title {
+  margin-left: 3rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: 5rem;
+  font-weight: bold;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.greece__title--text {
+  color: #335576;
+  padding: 1rem;
+}
+.greece .card {
+  display: flex;
+  flex-direction: column;
+  width: 22rem;
+  height: 27.5rem;
+  border-radius: 0.625rem;
+  box-shadow: 0 5px 9px -1px rgba(0, 0, 0, 0.25);
+  justify-content: center;
+  align-items: center;
+  margin: 0 2.5rem;
+}
+.greece .card__content {
+  color: black;
+  font-size: 2rem;
+  border-bottom: 5px solid black;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+.greece .card__content__container {
+  background-color: #fefaf5;
+  width: 80%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.greece .card__content__container--text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.greece .card__wrap--outer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.greece .card__wrap--inner {
+  display: flex;
+  flex-direction: row;
+}
+.greece .card__wrap--friday {
+  background-color: white;
+}
+.greece .card__wrap--saturday {
+  background-color: white;
+}
+.greece .card__wrap--sunday {
+  background-color: white;
+}
+
 .destination {
   background: #ffffff;
   height: 33.5rem;
