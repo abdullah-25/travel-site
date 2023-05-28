@@ -4,69 +4,63 @@
 .footer {
   color: $footer-color;
   font-family: $site-font;
-  height: 10rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
   display: flex;
   justify-content: space-between;
-  padding: 1rem 8rem 1rem 8rem;
 
-  .contact {
-    &__title {
-      color: $footer-title-text-color;
-      font-size: 1.5rem;
-    }
-    &__email {
-      color: $footer-subtitle-text-color;
-    }
-    &__info {
-      color: $footer-title-text-color;
-    }
-  }
-
-  .hours {
-    &__title {
-      color: $footer-title-text-color;
-      font-size: 1.5rem;
-    }
-    &__container {
-      display: flex;
-      justify-content: space-between;
-    }
-    &__weekday {
-      padding-right: 1rem;
-    }
-    &__description {
-      color: $footer-subtitle-text-color;
-      margin-bottom: 1rem;
-    }
-    &__time {
-      color: $footer-title-text-color;
-    }
-  }
-  .social {
+  &__title {
     color: $footer-title-text-color;
+    font-size: 1.5rem;
+  }
 
-    &__title {
-      color: $footer-title-text-color;
-      font-size: 1.5rem;
-    }
-    &__icons {
-      width: 1rem;
+  &__contact {
+    width: 30%;
+  }
+  &__email {
+    color: $footer-title-text-color;
+  }
+  &__email-heading {
+    color: $footer-subtitle-text-color;
+  }
+
+  &__hours {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    &--container {
       display: flex;
-      justify-content: space-between;
-      padding: 1rem;
-      &--instagram {
-        width: 1rem;
-        padding: 1rem;
-      }
-      &--facebook {
-        width: 3.125rem;
-        height: 3.125rem;
-        padding: 1rem;
-      }
-      &--twitter {
-        width: 3.125rem;
-        padding: 1rem;
-      }
+      flex-wrap: wrap;
+    }
+  }
+  &__weekday,
+  &__saturday,
+  &__sunday {
+    width: 35rem;
+    max-width: 11rem;
+    padding-right: 1.5rem;
+  }
+  &__description {
+    color: $footer-subtitle-text-color;
+  }
+  &__time {
+    color: $footer-title-text-color;
+  }
+
+  &__social {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+  }
+  &__icons {
+    display: flex;
+    justify-content: space-between;
+
+    & img {
+      width: 2.5rem;
+      height: 2.5rem;
+      padding: 0.5rem;
     }
   }
 }

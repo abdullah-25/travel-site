@@ -79,64 +79,57 @@ body {
 .footer {
   color: #fefaf5;
   font-family: "Verdana";
-  height: 10rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
   display: flex;
   justify-content: space-between;
-  padding: 1rem 8rem 1rem 8rem;
 }
-.footer .contact__title {
+.footer__title {
   color: #335576;
   font-size: 1.5rem;
 }
-.footer .contact__email {
+.footer__contact {
+  width: 30%;
+}
+.footer__email {
+  color: #335576;
+}
+.footer__email-heading {
   color: #db7a4e;
 }
-.footer .contact__info {
-  color: #335576;
-}
-.footer .hours__title {
-  color: #335576;
-  font-size: 1.5rem;
-}
-.footer .hours__container {
+.footer__hours {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
 }
-.footer .hours__weekday {
-  padding-right: 1rem;
+.footer__hours--container {
+  display: flex;
+  flex-wrap: wrap;
 }
-.footer .hours__description {
+.footer__weekday, .footer__saturday, .footer__sunday {
+  width: 35rem;
+  max-width: 11rem;
+  padding-right: 1.5rem;
+}
+.footer__description {
   color: #db7a4e;
-  margin-bottom: 1rem;
 }
-.footer .hours__time {
+.footer__time {
   color: #335576;
 }
-.footer .social {
-  color: #335576;
+.footer__social {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
 }
-.footer .social__title {
-  color: #335576;
-  font-size: 1.5rem;
-}
-.footer .social__icons {
-  width: 1rem;
+.footer__icons {
   display: flex;
   justify-content: space-between;
-  padding: 1rem;
 }
-.footer .social__icons--instagram {
-  width: 1rem;
-  padding: 1rem;
-}
-.footer .social__icons--facebook {
-  width: 3.125rem;
-  height: 3.125rem;
-  padding: 1rem;
-}
-.footer .social__icons--twitter {
-  width: 3.125rem;
-  padding: 1rem;
+.footer__icons img {
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0.5rem;
 }
 
 .hawaii {
